@@ -14,44 +14,35 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
-            </p>
-          </Col>
+        <Col md={8} className="home-about-description">
+              <h1 style={{ fontSize: "2.6em" }}>
+                LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              </h1>
+              <p className="home-about-body">
+                I fell in love with programming and have been exploring the fascinating world of AI and Machine Learning ever since.
+                <br />
+                <br />I'm currently pursuing a graduate degree in Information Systems at Northeastern University, focusing on leveraging AI to solve real-world challenges.
+                <br />
+                <br />I am proficient in technologies like
+                <i>
+                  <b className="purple"> Python, PyTorch, Numpy, Pandas, ReactJS, NodeJS, Docker, and AWS. </b>
+                </i>
+                <br />
+                <br />
+                My interests include developing innovative AI applications, especially in
+                <i>
+                  <b className="purple"> Large Language Models (LLMs) </b>
+                </i>
+                and building scalable full-stack solutions.
+                <br />
+                <br />
+                Whenever possible, I apply my passion for creating impactful products using modern technologies and frameworks like
+                <b className="purple"> Flask </b> and
+                <i>
+                  <b className="purple"> React.js</b>
+                </i>.
+              </p>
+            </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
@@ -67,7 +58,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/dushyantm"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,7 +68,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/spartoi_J"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -87,7 +78,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://linkedin.com/in/dushyant-mahajan"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +88,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/crispypixel"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

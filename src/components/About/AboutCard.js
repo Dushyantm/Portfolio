@@ -8,33 +8,36 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Hello, I am <span className="purple">Dushyant Mahajan </span>
+            from <span className="purple"> Boston, MA.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            A passionate Data Science Enthusiast 🚀 having an experience of working closely with software engineers and data scientists to develop and deploy cutting edge AI techniques.
+            <br />
+            Currently, I am pursuing my Master's in Information Systems from <span className="purple">Northeastern University, Boston</span>.
+            {/* <br />
+            I have an undergraduate degree in Computer Science and Engineering from <span className="purple">Mumbai University, India</span>.
+            <br /> */}
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
-            </li>
-            <li className="about-activity">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Hiking
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Skiing
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "If it's too easy, then you're not doing it right!"{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Casey Neistat</footer>
         </blockquote>
       </Card.Body>
     </Card>
