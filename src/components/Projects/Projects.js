@@ -32,7 +32,7 @@ function Projects() {
               • Boosted model efficiency via rigorous CPU/GPU testing on Northeastern’s HPC cluster, achieving 1.5x expedited training times for
               accurate weather image classification
               • Evaluated parallel processing’s efficacy, balancing resources for efficient model training in accurate weather image classification"
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              // ghLink="https://github.com/soumyajit4419/Chatify"
               // demoLink="https://chatify-49.web.app/"
             />
           </Col>
@@ -43,7 +43,7 @@ function Projects() {
               isBlog={false}
               title="Bits-0f-C0de"
               description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
@@ -54,7 +54,7 @@ function Projects() {
               isBlog={false}
               title="Editor.io"
               description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
               // demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
