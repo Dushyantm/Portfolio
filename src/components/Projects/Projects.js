@@ -1,13 +1,9 @@
+// Projects.js
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
   return (
@@ -21,41 +17,46 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {/* First Project */}
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={chatify}
               isBlog={false}
-              //enter title in purple color
               title="Parallelization Techniques in Deep Learning for Weather Classification in Images"
-              description="Utilized diverse parallelization techniques such as multiprocessing, Dask, Data Parallelism, and Distributed Data Parallelism to
-              optimize deep learning for weather image classification, managing computational complexity within diverse weather phenomena
-              • Boosted model efficiency via rigorous CPU/GPU testing on Northeastern’s HPC cluster, achieving 1.5x expedited training times for
-              accurate weather image classification
-              • Evaluated parallel processing’s efficacy, balancing resources for efficient model training in accurate weather image classification"
-              // ghLink="https://github.com/soumyajit4419/Chatify"
-              // demoLink="https://chatify-49.web.app/"
+              description={[
+                "Utilized diverse parallelization techniques such as multiprocessing, Dask, Data Parallelism, and Distributed Data Parallelism to optimize deep learning for weather image classification, managing computational complexity within diverse weather phenomena.",
+                "Boosted model efficiency via rigorous CPU/GPU testing on Northeastern’s HPC cluster, achieving 1.5x expedited training times for accurate weather image classification.",
+                "Evaluated parallel processing’s efficacy, balancing resources for efficient model training in accurate weather image classification."
+              ]}
+              ghLink="https://github.com/Dushyantm/Weather-Classification-using-Parallel-Deep-Learning" // Add your GitHub link here
             />
           </Col>
 
+          {/* Second Project */}
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              // demoLink="https://blogs.soumya-jit.tech/"
+              title="GPT-based Language Model for Custom Script Generation"
+              description={[
+                "Designed and built a custom text generation model from the ground up, using Transformer architecture with multi-head self-attention and feed-forward networks, inspired by the 'Attention is All You Need' paper to grasp the core principles of LLMs.",
+                "Trained the model to generate diverse scripts from various seed texts, demonstrating its adaptability and significantly enhancing the depth of storytelling across different genres."
+              ]}
+              ghLink="https://github.com/yourusername/gpt-script-generator" // Add your GitHub link here
             />
           </Col>
 
+          {/* Third Project */}
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              // ghLink="https://github.com/soumyajit4419/Editor.io"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              title="Reducing EHR Chart Burden with a Simple, Scalable, Clinician-Driven AI Approach"
+              description={[
+                "Developed and implemented a Retrieval-Augmented Generation (RAG) pipeline to automate summarization of Electronic Health Records (EHRs), reducing hallucinations and improving contextual accuracy by over 20%.",
+                "Engineered and optimized prompt-based workflows for Large Language Models (LLMs), reducing clinician chart review time by 30%.",
+                "Collaborated with subject matter experts to create a question-driven summarization framework, adaptable for various clinical tasks without extensive fine-tuning of the Llama 3 8b model."
+              ]}              
+              // ghLink="https://github.com/yourusername/editor.io" // Add your GitHub link here
+              demoLink="https://aclanthology.org/2024.bionlp-1.63/" // Add your demo link here
             />
           </Col>
         </Row>
