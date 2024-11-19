@@ -441,6 +441,8 @@ button:focus {
 .blockquote-footer {
   color: #a588c0 !important;
 }
+
+
 /* --------- */
 /* Projects */
 /* --------- */
@@ -537,7 +539,28 @@ button:focus {
   font-weight: 500 !important;
   padding-top: 10px !important;
 }
+/* --------- */
+/* Testimonials*/
+/* --------- */
+.testimonial-card-view {
+  /* Inherit styles from project-card-view */
+  composes: project-card-view;
+  /* Add or override styles as needed */
+}
 
+.testimonial-card .card-title {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.testimonial-card .card-subtitle {
+  font-size: 1em;
+  color: #d3d3d3;
+}
+
+.testimonial-card .card-text {
+  font-style: italic;
+}
 /* --------- */
 /* About */
 /* --------- */

@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Boston, MA.</span>
             <br />
             <br />
-            A passionate Data Science Enthusiast 🚀 having an experience of working closely with software engineers and data scientists to develop and deploy cutting edge AI techniques.
+            A passionate Data Scientist 🚀 with experience collaborating closely with software engineers and fellow data scientists to develop and deploy cutting-edge AI techniques.
             <br />
             Currently, I am pursuing my Master's in Information Systems from <span className="purple">Northeastern University, Boston</span>.
             {/* <br />
@@ -30,7 +30,7 @@ function AboutCard() {
               <ImPointRight /> Hiking
             </li>
             <li className="about-activity">
-              <ImPointRight /> Skiing
+              <ImPointRight /> Photography
             </li>
           </ul>
 
