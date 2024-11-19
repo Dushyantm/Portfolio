@@ -50,18 +50,18 @@ function About() {
           </Col>
           <Col md={4} className="project-card">
             <TestimonialCard
-              name="Jane Smith"
-              designation="Lead Engineer at InnovateX"
-              testimonial="Working with Dushyant was a pleasure. His insights into AI and machine learning are exceptional."
+              name="Anson Antony"
+              designation="Data Scientist at Experential AI"
+              testimonial="Dushyant has been a joy to work with; one cannot help but catch his passion for NLP and data science. He is a professional workaholic who brings creativity into the challenge he identifies, in order to innovate and improve the quality of our projects. His friendly disposition and progressive outlook assure that every project not only meets but actually exceeds expected standards."
             />
           </Col>
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <TestimonialCard
               name="John Doe"
               designation="CEO of TechCorp"
               testimonial="Dushyant's expertise in data science significantly advanced our project's success. His dedication is unparalleled."
             />
-          </Col>
+          </Col> */}
         </Row>
 
         {/* Existing Professional Skillset Section */}
